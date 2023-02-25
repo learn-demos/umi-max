@@ -2,7 +2,7 @@
   "private": true,
   "author": "huangpeng <1157287320@qq.com>",
   "scripts": {
-    "build": "max build",
+    "build": "ANALYZE=1 max build",
     "dev": "max dev",
     "e2e": "cypress run",
     "e2e:ci": "start-server-and-test preview http://127.0.0.1:9572  e2e",
