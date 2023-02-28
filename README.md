@@ -22,6 +22,16 @@
 
 `pnpm e2e:open` 功能测试 ui 客户端
 
+# Storyboook v7 最新版本使用
+
+`npx sb@next init` 安装最新脚手架 支持 umi
+
+`pnpm run storybook` 启动 storybook
+
+`pnpm run build-storybook` 编译 storybook 资源
+
+`npx storybook@next upgrade --prerelease` 更新 storybook 最新脚手架
+
 # 注意事项
 
 容器部署时可以通过外部变量替换代理域名
